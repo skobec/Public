@@ -1048,6 +1048,26 @@ a.monitoring_ico:hover, .active .monitoring_ico {
 .kart_dat {
     background-color: #ffffff;
     float: left;
+    padding: 15px 0 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+    min-height: 297px!important;
+    width: 283px;
+}
+.graf {
+    position: relative;
+    float: left;
+}
+.graf:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 90px;
+    height: 15px;
+    background-color: #ffffff;
 }
 .circle_plus {
     width: 68px;
@@ -1116,4 +1136,144 @@ a.monitoring_ico:hover, .active .monitoring_ico {
     font-size: 20px;
     color: #999999;
     margin-bottom: 90px;
+}
+.plus_cart {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    float: right;
+    margin-top: 2px;
+}
+.plus_cart:after {
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #4ebfae;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.plus_cart:before {
+    content: "";
+    height: 15px;
+    width: 1px;
+    background-color: #4ebfae;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.highcharts-button {
+    display: none;
+}
+.highcharts-markers path {
+    fill: #4ebfae;
+}
+.name_cart {
+    color: #4EBFAE;
+    font-size: 14px;
+    font-weight: bold;
+}
+.select_cart {
+    border-bottom: 0;
+    width: 89px;
+    height: 32px;
+    margin-left: -2px;
+}
+.select_cart select {
+    width: 85px;
+    font-weight: normal;
+
+}
+.select_data {
+    border-bottom: 0;
+    width: 150px;
+    height: 32px;
+    float: right;
+}
+.select_data select {
+    width: 154px;
+    font-weight: normal;
+}
+.select_date_bl {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.statisctic_txt {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 8px;
+    float: left;
+}
+.number_of {
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    margin-left: 31px;
+}
+.number_of:before {
+    content: "";
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: -31px;
+    top: -4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #8cc63f;
+}
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+    float: left;
+    /*margin-left: 10px;*/
+}
+/* flip the pane when hovered */
+.flip-container.hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 283px;
+    height: 297px;
+}
+.back .kart_dat {
+    background-color: #404447;
+}
+.back .kart_dat .graf:after {
+    display: none;
+}
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
 }

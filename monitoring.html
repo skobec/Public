@@ -16,11 +16,11 @@
         <div class="nav_menu nav_menu_fix col-xs-2">
             <div class="row">
                 <div class="col-xs-12">
-                    <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+                    <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
                 </div>
                 <div class="col-xs-12">
                     <ul class="nav nav_icon">
-                        <li class="active"><a href="#" class="monitoring_ico">Мониторинг</a> </li>
+                        <li class="active"><a href="monitoring.html" class="monitoring_ico">Мониторинг</a> </li>
                         <li><a href="appointments.html" class="record_ico">Запись на прием</a> </li>
                         <li><a href="#" class="recomend_ico">Уведомления</a> </li>
                         <li><a href="#" class="destination_ico">Назначения</a> </li>
@@ -37,17 +37,179 @@
         <div class="col-xs-10 col-xs-offset-2 content_bl">
             <div class="row">
                 <div class="col-xs-12 history_block">
-                    <span><span>8 из 10 </span>В целом, все показатели в норме. Обратите внимание на давление, возможно, нужно обратиться к врачу.</span>
+                    <span class="statisctic_txt"><span class="number_of">8 из 10:</span>В целом, все показатели в норме. Обратите внимание на давление, возможно, нужно обратиться к врачу.</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-4 kart_dat">
-                        <div class="col-xs-6">
-                            <span>Пульс</span>
+                <div class="col-xs-12">
+                    <div class="flip-container flip-toggle" id="">
+                        <div class="flipper">
+                            <div class="front">
+                                <div class="col-xs-12 kart_dat">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="col-xs-6">
+                                                <span class="name_cart">Пульс</span>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <a href="#" class="plus_cart" onclick="document.querySelector('.flip-toggle').classList.toggle('hover');"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 select_date_bl">
+                                            <div class="col-xs-4">
+                                                <div class="select select_cart">
+                                                    <select>
+                                                        <option>За месяц</option>
+                                                        <option>За год</option>
+                                                        <option>За неделю</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <div class="select select_data">
+                                                    <select>
+                                                        <option>17.08.12 — 20.08.12</option>
+                                                        <option>10.08.12 — 21.08.12</option>
+                                                        <option>23.06.12 — 20.07.12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="graf" class="graf" style=" height: 200px; width: 100%; margin: 0 auto"></div>
+                                </div>
+                            </div>
+                            <div class="back" style="background:#f8f8f8;">
+                                <div class="col-xs-12 kart_dat">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="col-xs-6">
+                                                <span class="name_cart">Пульс</span>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <a href="#" class="plus_cart" onclick="document.querySelector('.flip-toggle').classList.toggle('hover');"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 select_date_bl">
+                                            <div class="col-xs-4">
+                                                <div class="select select_cart">
+                                                    <select>
+                                                        <option>За месяц</option>
+                                                        <option>За год</option>
+                                                        <option>За неделю</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <div class="select select_data">
+                                                    <select>
+                                                        <option>17.08.12 — 20.08.12</option>
+                                                        <option>10.08.12 — 21.08.12</option>
+                                                        <option>23.06.12 — 20.07.12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-xs-6 text-right">
-                            <a href="#">плюс</a>
+                    </div>
+                    <!--<div class="col-xs-4 flip">-->
+                        <!--<div class="col-xs-4 kart_dat front">-->
+                            <!--<div class="col-xs-6">-->
+                                <!--<span class="name_cart">Пульс</span>-->
+                            <!--</div>-->
+                            <!--<div class="col-xs-6 text-right">-->
+                                <!--<a href="#" class="plus_cart flip"></a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="back">-->
+                            <!--6546464-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <div class="flip-container flip-toggle col-xs-4">
+                        <div class="flipper">
+                            <div class="front" style="background: url(dwflip.jpg) 0 0 no-repeat;">
+                                <div class="col-xs-12 kart_dat">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="col-xs-6">
+                                                <span class="name_cart">Давление</span>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <a href="#" class="plus_cart"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 select_date_bl">
+                                            <div class="col-xs-4">
+                                                <div class="select select_cart">
+                                                    <select>
+                                                        <option>За месяц</option>
+                                                        <option>За год</option>
+                                                        <option>За неделю</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <div class="select select_data">
+                                                    <select>
+                                                        <option>17.08.12 — 20.08.12</option>
+                                                        <option>10.08.12 — 21.08.12</option>
+                                                        <option>23.06.12 — 20.07.12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="graf_2" class="graf" style=" height: 200px; width: 100%; margin: 0 auto"></div>
+                                </div>
+                            </div>
+                            <div class="back" style="background:#f8f8f8;">
+                                <div class="col-xs-12 kart_dat">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="col-xs-6">
+                                                <span class="name_cart">Пульс</span>
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <a href="#" class="plus_cart" onclick="document.querySelector('.flip-toggle').classList.toggle('hover');"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 select_date_bl">
+                                            <div class="col-xs-4">
+                                                <div class="select select_cart">
+                                                    <select>
+                                                        <option>За месяц</option>
+                                                        <option>За год</option>
+                                                        <option>За неделю</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <div class="select select_data">
+                                                    <select>
+                                                        <option>17.08.12 — 20.08.12</option>
+                                                        <option>10.08.12 — 21.08.12</option>
+                                                        <option>23.06.12 — 20.07.12</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,5 +218,134 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/flip.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<!--<script>-->
+    <!--$(".flip").flip();-->
+<!--</script>-->
+<script>
+    $(function () {
+        $('#graf').highcharts({
+            chart: {
+                type: 'spline',
+                inverted: false
+            },
+            title:{
+                text:''
+            },
+            subTitle:{
+                text:''
+            },
+            xAxis: {
+                reversed: false,
+                title: {
+                    enabled: false,
+                    text: 'Altitude'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value + 'km';
+                    }
+                },
+                maxPadding: 0.05,
+                showLastLabel: true
+            },
+            yAxis: {
+                title: {
+                    enabled: false,
+                    text: 'Temperature'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value + '';
+                    }
+                },
+                lineWidth: 2
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                headerFormat: '<b>{series.name}</b><br/>',
+                pointFormat: '{point.x} у: {point.y}°C'
+            },
+            plotOptions: {
+                spline: {
+                    marker: {
+                        enable: false
+                    }
+                }
+            },
+            series: [{
+                name: 'Пульс',
+                data: [[0, 15], [10, -50], [20, -56.5], [30, -46.5], [40, -22.1],
+                    [50, -2.5], [60, -27.7], [70, -55.7], [80, -76.5]],
+                color: '#4ebfae'
+            }]
+        });
+    });
+    $(function () {
+        $('#graf_2').highcharts({
+            chart: {
+                type: 'spline',
+                inverted: false
+            },
+            title:{
+                text:''
+            },
+            subTitle:{
+                text:''
+            },
+            xAxis: {
+                reversed: false,
+                title: {
+                    enabled: false,
+                    text: 'Altitude'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value + 'km';
+                    }
+                },
+                maxPadding: 0.05,
+                showLastLabel: true
+            },
+            yAxis: {
+                title: {
+                    enabled: false,
+                    text: 'Temperature'
+                },
+                labels: {
+                    formatter: function () {
+                        return this.value + '';
+                    }
+                },
+                lineWidth: 2
+            },
+            legend: {
+                enabled: false
+            },
+            tooltip: {
+                headerFormat: '<b>{series.name}</b><br/>',
+                pointFormat: '{point.x} у: {point.y}°C'
+            },
+            plotOptions: {
+                spline: {
+                    marker: {
+                        enable: false
+                    }
+                }
+            },
+            series: [{
+                name: 'Пульс',
+                data: [[0, 15], [10, -50], [20, -56.5], [30, -46.5], [40, -22.1],
+                    [50, -2.5], [60, -27.7], [70, -55.7], [80, -76.5]],
+                color: '#4ebfae'
+            }]
+        });
+    });
+
+</script>
 </body>
 </html>
