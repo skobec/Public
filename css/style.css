@@ -1402,6 +1402,7 @@ a.recomend_ico:hover,.active .recomend_ico {
     float: none;
 }
 .recomend-graf{border: 1px solid #eee;display: inline-block;}
+/*<<<<<<< HEAD*/
 /********************************/
 
 .calendar_data {
@@ -1561,3 +1562,6 @@ a.recomend_ico:hover,.active .recomend_ico {
 .del_rec_kart_w:hover {
     color: #d94039;
 }
+/*=======*/
+/********************************/
+/*>>>>>>> origin/master*/
