@@ -1194,12 +1194,13 @@ a.recomend_ico:hover,.active .recomend_ico {
 }
 .select_cart {
     border-bottom: 0;
-    width: 89px;
+    width: 82px;
     height: 32px;
     margin-left: -2px;
+    padding-left: 1px;
 }
 .select_cart select {
-    width: 85px;
+    width: 91px;
     font-weight: normal;
 
 }
@@ -1562,6 +1563,23 @@ a.recomend_ico:hover,.active .recomend_ico {
 .del_rec_kart_w:hover {
     color: #d94039;
 }
-/*=======*/
-/********************************/
-/*>>>>>>> origin/master*/
+
+
+.link_list {
+    list-style: none;
+    line-height: 50px;
+}
+.highcharts-tooltip {
+    box-shadow: none;
+}
+.kart_dat .btn-group .btn_check {
+    padding: 4px 12px;
+}
+.kart_list_links a {
+    line-height: 30px;
+    opacity: 0.6;
+    display: block;
+}
+.kart_list_links a:hover {
+    opacity: 1;
+}

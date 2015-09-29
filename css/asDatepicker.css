@@ -249,10 +249,11 @@
 
 .calendar-body span.calendar_active {
   color: white !important;
-  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.15);
-  background-color:  #50BFAE !important;
-  border: 1px solid rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) inset;
+  /* text-shadow: 0 2px 1px rgba(0, 0, 0, 0.15); */
+  background-color: #50BFAE !important;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) inset; */
+  border-radius: 6px;
 }
 
 .calendar-body span.calendar_otherMonth,
