@@ -1408,6 +1408,33 @@ a.recomend_ico:hover,.active .recomend_ico {
     float: none;
 }
 .recomend-graf{border: 1px solid #eee;display: inline-block;}
+
+/************/
+/*Registration*/
+.registration .col-xs-4{width: auto;}
+.link-regist div{margin: 10px 0;}
+a.ShowHidePassword{color: #4ebfae;font-size: 12px;position: absolute;top: 10px;right: 15px;}
+.registration .col-xs-12{position: relative;}
+.registration-answer{color: #fff;text-align: center;margin: 140px 0 110px;font-size: 16px;line-height: 25px;}
+.agreement{
+    padding: 30px 10px 20px 30px;
+    width: 620px;
+    height:300px;
+    overflow: hidden;
+    border-radius:10px;
+    background: #000;
+    color:#fff;
+    font-size: 12px;
+}
+.agreement-text{overflow-y: scroll;max-height: 100%;padding: 0 20px 0 0;}
+::-webkit-scrollbar              {background: #000;width: 7px;}
+/*::-webkit-scrollbar-button       {}*/
+::-webkit-scrollbar-track        {}
+::-webkit-scrollbar-track-piece  {}
+::-webkit-scrollbar-thumb        {background: #fff;border-radius: 10px;}
+::-webkit-scrollbar-corner       {}
+::-webkit-resizer                {}
+/************/
 /*<<<<<<< HEAD*/
 /********************************/
 
