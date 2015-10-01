@@ -132,7 +132,7 @@ a:hover,a:active,a:focus {
     border-radius: 5px;
     height: auto;
     padding: 30px 15px;
-    
+    margin: 0 0 20px;
 }
 .data_bl_black1{
     position: absolute;
@@ -1408,7 +1408,7 @@ input.button-appoint:active,input.button-appoint:focus {
     min-height: 0px;
     line-height: 25px;
     padding: 20px;
-    margin: 20px 0 40px;
+    margin: 20px 0 20px;
 }
 .more-info{
     margin: 10px 0 10px;
