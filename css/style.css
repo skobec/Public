@@ -124,6 +124,20 @@ a:hover,a:active,a:focus {
     min-height: 87vh;
     padding: 30px 15px;
 }
+.data_bl_black {
+    background-color: #333;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: auto;
+    padding: 30px 15px;
+    
+}
+.data_bl_black1{
+    position: absolute;
+    width: 100%;
+}
 .data_bl_center {
     display: -webkit-box;
     display: -moz-box;
@@ -1013,6 +1027,38 @@ a.recomend_ico:hover,.active .recomend_ico {
     -moz-box-shadow: none;
     box-shadow: none;
 }
+.input_data_birth{
+    background-color: transparent;
+    display: inline-block;
+    border: 0;
+    width: 75px;
+    border-bottom: 1px solid #4ebfae;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #4ebfae;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 2px;
+    margin-right:20px; 
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+input.button-appoint{
+    background: no-repeat;
+}
+.input_data_birth:active,.input_data_birth:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #4ebfae;
+}
+input.button-appoint:active,input.button-appoint:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
 .input_log:active,.input_log:focus {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -1023,6 +1069,11 @@ a.recomend_ico:hover,.active .recomend_ico {
 .input_log::-moz-placeholder          {color:#EAE3E1;}/* Firefox 19+ */
 .input_log:-moz-placeholder           {color:#EAE3E1;}/* Firefox 18- */
 .input_log:-ms-input-placeholder      {color:#EAE3E1;}
+
+.input_data_birth::-webkit-input-placeholder {color:#4ebfae;}
+.input_data_birth::-moz-placeholder          {color:#4ebfae;}/* Firefox 19+ */
+.input_data_birth:-moz-placeholder           {color:#4ebfae;}/* Firefox 18- */
+.input_data_birth:-ms-input-placeholder      {color:#4ebfae;}
 
 .btn_log {
     padding: 8px 30px 7px;
@@ -1328,7 +1379,11 @@ a.recomend_ico:hover,.active .recomend_ico {
     -o-transition: 0.0s ease;
     transition: 0.0s ease;
 }
-.content_recomend .tabular .new-tab{
+.content_recomend .tabular li a.deferred-tab{
+    border-left: none;
+    border-right: none;
+}
+.content_recomend .tabular .all-tab{
     -webkit-border-top-left-radius: 4px;
     -moz-border-top-left-radius: 4px;
     border-top-left-radius: 4px;
@@ -1366,11 +1421,10 @@ a.recomend_ico:hover,.active .recomend_ico {
     display: none;
 }
 .button-appoint{
-    display: block;
+    display: inline-block;
     text-align: center;
-    padding: 3px 0;
+    padding: 6px 15px;
     margin-top: 20px;
-    width: 107px;
     border: 1px solid #4ebfae;
     color: #4ebfae;
     -webkit-border-radius: 4px;
@@ -1381,11 +1435,13 @@ a.recomend_ico:hover,.active .recomend_ico {
     -ms-transition: 0.3s ease;
     -o-transition: 0.3s ease;
     transition: 0.3s ease;
+    vertical-align: top;
 }
 .recom-title{
     display: inline-block;
     font-size: 16px;
-    margin-right: 20px;
+    margin: 0 20px 10px 0;
+    font-weight: bold;
 }
 .recom-data{
     display: inline-block;
@@ -1408,6 +1464,47 @@ a.recomend_ico:hover,.active .recomend_ico {
     float: none;
 }
 .recomend-graf{border: 1px solid #eee;display: inline-block;}
+.data_bl_black .button-appoint{margin-top: 0;}
+.poll-answer div{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 15px 10px 0 0;
+}
+.polls-info{
+    float: right;
+    position: relative;
+}
+.polls-info-title{
+    color: #b3b3b3;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.polls-info-text{
+    position: absolute;
+    z-index: 100;
+    line-height: 13px;
+    font-size: 12px;
+    background: #4ebfae;
+    width: 170px;
+    padding: 15px;
+    display: none;
+    right: -5px;
+    top: 28px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.polls-info-text img{
+    position: absolute;
+    top: -8px;
+    left: 60%;
+}
 
 /************/
 /*Registration*/
