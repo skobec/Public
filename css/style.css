@@ -1599,6 +1599,7 @@ a.ShowHidePassword{color: #4ebfae;font-size: 12px;position: absolute;top: 10px;r
     background-color: transparent;
     border: 0;
     color: #7acfc2;
+    line-height: 20px;
 }
 .inp_criterien {
     background-color: transparent;

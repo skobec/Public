@@ -219,7 +219,7 @@
                                                 <input class="time_black" value="12:17">
                                             </div>
                                             <div class="col-xs-6">
-                                                <input class="date_black" value="17.08.12">
+                                                <input class="date_black" value="17.08.12" id="calendar2">
                                             </div>
                                         </div>
                                         <div class="inputs_data_black">
@@ -404,7 +404,7 @@
         });
 
         $("#calendar2, #calendar3,#calendar4,#calendar5,#calendar6,#calendar7").asDatepicker({
-            mode: 'range',
+     
         });
 
         //    $("#calendar3").asDatepicker({mode: 'multiple', calendars: 4});
@@ -533,6 +533,14 @@
         }).data('datepicker');
     });
 
+</script>
+<script src="js/jquery-asDatepicker.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#calendar2, #calendar3,#calendar4,#calendar5,#calendar6,#calendar7").asDatepicker({
+//            mode: 'range'
+        });
+    });
 </script>
 </body>
 </html>

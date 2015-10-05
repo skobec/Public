@@ -978,7 +978,7 @@
                 calendar_height = this.picker.outerHeight(),
                 calendar_width = this.picker.outerWidth(),
                 input_top = this.$el.offset().top,
-                input_left = this.$el.offset().left - 150,
+                input_left = this.$el.offset().left - 100,
                 input_height = this.$el.outerHeight(),
                 input_width = this.$el.outerWidth(),
                 scroll_top = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0,
