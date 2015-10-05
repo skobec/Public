@@ -388,6 +388,7 @@
             chart: {
                 type: 'spline',
                 inverted: false
+
             },
             title:{
                 text:''
@@ -396,111 +397,114 @@
                 text:''
             },
             xAxis: {
-                reversed: false,
-                title: {
-                    enabled: false,
-                    text: 'Altitude'
-                },
+                type: 'datetime',
                 labels: {
-                    formatter: function () {
-                        return this.value + 'km';
-                    }
+                    format: '{value:%d.%m}',
+                    rotation: 0,
+                    align: 'left'
                 },
-                maxPadding: 0.05,
-                showLastLabel: true
+                lineWidth: 0
             },
             yAxis: {
                 title: {
                     enabled: false,
                     text: 'Temperature'
                 },
-                labels: {
-                    formatter: function () {
-                        return this.value + '';
+                min: 30,
+                minorGridLineWidth: 0,
+                gridLineWidth: 0,
+                alternateGridColor: null,
+                plotBands: [{ // 1 var
+                    from: 35,
+                    to: 40,
+                    color: '#f6fcfb',
+                    label: {
+                        //text:'Покой',
+                        y: 3,
+                        x: 0,
+                        align:'right',
+                        style: {
+                            color: '#4ebfae'
+                        }
                     }
                 },
-                lineWidth: 2
+                    /*{ // 2 var
+                        from: 48,
+                        to: 90,
+                        color: '#f6fcfb',
+                        label: {
+                            text: 'Актив ',
+                            y: 3,
+                            x: 0,
+                            align:'right',
+                            style: {
+                                color: '#4ebfae'
+                            }
+                        }
+                    }*/
+                ],
+
+                labels: {
+
+                    x: 0,
+                    y: 0,
+                    format: '{value:.,0f}'
+                },
+                lineWidth: 0
             },
+
             legend: {
                 enabled: false
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br/>',
-                pointFormat: '{point.x} у: {point.y}°C'
+                //pointFormat: '{point.x} у: {point.y}',
+                pointFormat: '{point.y}',
+                shadow: false
+
             },
             plotOptions: {
                 spline: {
+                    lineWidth: 1,
+                    states: {
+                        hover: {
+                            lineWidth: 1
+                        }
+                    },
                     marker: {
-                        enable: false
-                    }
+                        enabled: true,
+                        symbol: '',
+                        states: {
+                            hover: {
+                                enabled: false
+                            }
+                        }
+                    },
+                    pointInterval: 1 // one hour
                 }
             },
             series: [{
                 name: 'Пульс',
-                data: [[0, 15], [10, -50], [20, -56.5], [30, -46.5], [40, -22.1],
-                    [50, -2.5], [60, -27.7], [70, -55.7], [80, -76.5]],
+                data: [36.6, 37.5, 36.9, 37.8, 37.0, 36.7],
+                pointInterval: 7 * 36e5,
+                pointStart: Date.UTC(2013, 2, 8),
+                marker: {
+                    symbol: 'circle',
+                    radius: 3
+                },
                 color: '#4ebfae'
-            }]
-        });
-    });
-    $(function () {
-        $('#graf_2').highcharts({
-            chart: {
-                type: 'spline',
-                inverted: false
             },
-            title:{
-                text:''
-            },
-            subTitle:{
-                text:''
-            },
-            xAxis: {
-                reversed: false,
-                title: {
-                    enabled: false,
-                    text: 'Altitude'
-                },
-                labels: {
-                    formatter: function () {
-                        return this.value + 'km';
-                    }
-                },
-                maxPadding: 0.05,
-                showLastLabel: true
-            },
-            yAxis: {
-                title: {
-                    enabled: false,
-                    text: 'Temperature'
-                },
-                labels: {
-                    formatter: function () {
-                        return this.value + '';
-                    }
-                },
-                lineWidth: 2
-            },
-            legend: {
-                enabled: false
-            },
-            tooltip: {
-                headerFormat: '<b>{series.name}</b><br/>',
-                pointFormat: '{point.x} у: {point.y}°C'
-            },
-            plotOptions: {
-                spline: {
+                /*{
+                    name: 'Пульс',
+                    data: [50.9, 60.5, 60.4, 70.2, 50.0, 60.0, 80.6, 80.5, 70.4, 60.1, 50, 50.4],
+                    pointInterval: 7 * 36e5,
+                    pointStart: Date.UTC(2013, 2, 8),
                     marker: {
-                        enable: false
+                        symbol: 'circle',
+                        radius: 3
                     }
-                }
-            },
-            series: [{
-                name: 'Пульс',
-                data: [[0, 15], [10, -50], [20, -56.5], [30, -46.5], [40, -22.1],
-                    [50, -2.5], [60, -27.7], [70, -55.7], [80, -76.5]],
-                color: '#4ebfae'
-            }]
+                }*/
+            ]
         });
     });
 

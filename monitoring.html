@@ -629,7 +629,8 @@
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br/>',
-                pointFormat: '{point.x} у: {point.y}',
+                //pointFormat: '{point.x} у: {point.y}',
+                pointFormat: '{point.y}',
                 shadow: false
 
             },
@@ -655,7 +656,7 @@
             },
             series: [{
                 name: 'Пульс',
-                data: [10.9, 20.5, 16.4, 30.2, 40.0, 40.0, 20.6, 30.5, 40.4, 20.1, 30.6, 30.4],
+                data: [10.9, 30.5, 16.4, 30.2, 25.0],
                 pointInterval: 7 * 36e5,
                 pointStart: Date.UTC(2013, 2, 8),
                 marker: {
@@ -666,7 +667,7 @@
             },
                 {
                     name: 'Пульс',
-                    data: [50.9, 60.5, 60.4, 70.2, 50.0, 60.0, 80.6, 80.5, 70.4, 60.1, 50, 50.4],
+                    data: [50.9, 70.5, 60.4, 70.2, 60.0],
                     pointInterval: 7 * 36e5,
                     pointStart: Date.UTC(2013, 2, 8),
                     marker: {
@@ -750,7 +751,8 @@
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br/>',
-                pointFormat: '{point.x} у: {point.y}',
+                //pointFormat: '{point.x} у: {point.y}',
+                pointFormat: '{point.y}',
                 shadow: false
 
             },
@@ -776,7 +778,7 @@
             },
             series: [{
                 name: 'Пульс',
-                data: [10.9, 20.5, 16.4, 30.2, 40.0, 40.0, 20.6, 30.5, 40.4, 20.1, 30.6, 30.4],
+                data: [10.9, 20.5, 18.4, 22.2, 30.0, 28.0],
                 pointInterval: 7 * 36e5,
                 pointStart: Date.UTC(2013, 2, 8),
                 marker: {
@@ -787,7 +789,7 @@
             },
                 {
                     name: 'Пульс',
-                    data: [50.9, 60.5, 60.4, 70.2, 50.0, 60.0, 80.6, 80.5, 70.4, 60.1, 50, 50.4],
+                    data: [50.9, 60.5, 60.4, 65.2, 60.0, 60.0],
                     pointInterval: 7 * 36e5,
                     pointStart: Date.UTC(2013, 2, 8),
                     marker: {
@@ -823,11 +825,11 @@
                     enabled: false,
                     text: 'Temperature'
                 },
-                min: 0,
+                min: 40,
                 minorGridLineWidth: 0,
                 gridLineWidth: 0,
                 alternateGridColor: null,
-                plotBands: [{ // 1 var
+                plotBands: [/*{ // 1 var
                     from: 0,
                     to: 40,
                     color: '#f6fcfb',
@@ -840,13 +842,13 @@
                             color: '#4ebfae'
                         }
                     }
-                },
+                },*/
                     { // 2 var
                         from: 48,
                         to: 90,
                         color: '#f6fcfb',
                         label: {
-                            text: 'Актив ',
+                            //text: 'Актив ',
                             y: 3,
                             x: 0,
                             align:'right',
@@ -871,7 +873,8 @@
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br/>',
-                pointFormat: '{point.x} у: {point.y}',
+                //pointFormat: '{point.x} у: {point.y}',
+                pointFormat: '{point.y}',
                 shadow: false
 
             },
@@ -895,7 +898,7 @@
                     pointInterval: 1 // one hour
                 }
             },
-            series: [{
+            series: [/*{
                 name: 'Пульс',
                 data: [10.9, 20.5, 16.4, 30.2, 40.0, 40.0, 20.6, 30.5, 40.4, 20.1, 30.6, 30.4],
                 pointInterval: 7 * 36e5,
@@ -905,10 +908,10 @@
                     radius: 3
                 },
                 color: '#4ebfae'
-            },
+            },*/
                 {
                     name: 'Пульс',
-                    data: [50.9, 60.5, 60.4, 70.2, 50.0, 60.0, 80.6, 80.5, 70.4, 60.1, 50, 50.4],
+                    data: [50.9, 55.5, 57.4, 60.2, 58.0, 60.0],
                     pointInterval: 7 * 36e5,
                     pointStart: Date.UTC(2013, 2, 8),
                     marker: {
@@ -944,16 +947,16 @@
                     enabled: false,
                     text: 'Temperature'
                 },
-                min: 0,
+                min: 20,
                 minorGridLineWidth: 0,
                 gridLineWidth: 0,
                 alternateGridColor: null,
                 plotBands: [{ // 1 var
-                    from: 0,
-                    to: 40,
+                    from: 30,
+                    to: 50,
                     color: '#f6fcfb',
                     label: {
-                        text:'Покой',
+                        //text:'Покой',
                         y: 3,
                         x: 0,
                         align:'right',
@@ -962,7 +965,7 @@
                         }
                     }
                 },
-                    { // 2 var
+                    /*{ // 2 var
                         from: 48,
                         to: 90,
                         color: '#f6fcfb',
@@ -975,7 +978,7 @@
                                 color: '#4ebfae'
                             }
                         }
-                    }
+                    }*/
                 ],
 
                 labels: {
@@ -992,7 +995,8 @@
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br/>',
-                pointFormat: '{point.x} у: {point.y}',
+                //pointFormat: '{point.x} у: {point.y}',
+                pointFormat: '{point.y}',
                 shadow: false
 
             },
@@ -1018,7 +1022,7 @@
             },
             series: [{
                 name: 'Пульс',
-                data: [10.9, 20.5, 16.4, 30.2, 40.0, 40.0, 20.6, 30.5, 40.4, 20.1, 30.6, 30.4],
+                data: [32.9, 44.5, 36.4, 40.2, 35.0, 33.0],
                 pointInterval: 7 * 36e5,
                 pointStart: Date.UTC(2013, 2, 8),
                 marker: {
@@ -1027,7 +1031,7 @@
                 },
                 color: '#4ebfae'
             },
-                {
+                /*{
                     name: 'Пульс',
                     data: [50.9, 60.5, 60.4, 70.2, 50.0, 60.0, 80.6, 80.5, 70.4, 60.1, 50, 50.4],
                     pointInterval: 7 * 36e5,
@@ -1036,7 +1040,7 @@
                         symbol: 'circle',
                         radius: 3
                     }
-                }
+                }*/
             ]
         });
         $('#graf_5').highcharts({
@@ -1065,16 +1069,16 @@
                     enabled: false,
                     text: 'Temperature'
                 },
-                min: 0,
+                min: 30,
                 minorGridLineWidth: 0,
                 gridLineWidth: 0,
                 alternateGridColor: null,
                 plotBands: [{ // 1 var
-                    from: 0,
+                    from: 35,
                     to: 40,
                     color: '#f6fcfb',
                     label: {
-                        text:'Покой',
+                        //text:'Покой',
                         y: 3,
                         x: 0,
                         align:'right',
@@ -1083,7 +1087,7 @@
                         }
                     }
                 },
-                    { // 2 var
+                    /*{ // 2 var
                         from: 48,
                         to: 90,
                         color: '#f6fcfb',
@@ -1096,7 +1100,7 @@
                                 color: '#4ebfae'
                             }
                         }
-                    }
+                    }*/
                 ],
 
                 labels: {
@@ -1113,7 +1117,8 @@
             },
             tooltip: {
                 headerFormat: '<b>{series.name}</b><br/>',
-                pointFormat: '{point.x} у: {point.y}',
+                //pointFormat: '{point.x} у: {point.y}',
+                pointFormat: '{point.y}',
                 shadow: false
 
             },
@@ -1139,7 +1144,7 @@
             },
             series: [{
                 name: 'Пульс',
-                data: [10.9, 20.5, 16.4, 30.2, 40.0, 40.0, 20.6, 30.5, 40.4, 20.1, 30.6, 30.4],
+                data: [36.6, 37.5, 36.9, 37.8, 37.0, 36.7],
                 pointInterval: 7 * 36e5,
                 pointStart: Date.UTC(2013, 2, 8),
                 marker: {
@@ -1148,7 +1153,7 @@
                 },
                 color: '#4ebfae'
             },
-                {
+                /*{
                     name: 'Пульс',
                     data: [50.9, 60.5, 60.4, 70.2, 50.0, 60.0, 80.6, 80.5, 70.4, 60.1, 50, 50.4],
                     pointInterval: 7 * 36e5,
@@ -1157,7 +1162,7 @@
                         symbol: 'circle',
                         radius: 3
                     }
-                }
+                }*/
             ]
         });
     });
