@@ -1324,8 +1324,9 @@ input.button-appoint:active,input.button-appoint:focus {
 .full_flipp, .full_flipp .front, .full_flipp .back, .full_flipp .kart_dat {
     width: 100%;
 }
-.full_flipp .select_date_bl {
-    width: 330px;
+.full_flipp .calendar_data {
+    width: 156px;
+    float: left;
 }
 .back .kart_dat {
     background-color: #404447;
@@ -1560,7 +1561,7 @@ a.ShowHidePassword{color: #4ebfae;font-size: 12px;position: absolute;top: 10px;r
     border: 0;
     color: #7acfc2;
     height: 34px;
-    width: 41%;
+    width: 43%;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     margin-right: -3px;
@@ -1641,6 +1642,7 @@ a.ShowHidePassword{color: #4ebfae;font-size: 12px;position: absolute;top: 10px;r
 .inputs_data_black {
     height: 175px;
     display: table;
+    margin: auto;
 }
 .punkt_criter {
     margin-top: 7px;
