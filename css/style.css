@@ -1938,3 +1938,8 @@ td.day {
     width: 16px;
     height: 16px;
 }
+
+.inp_crit_txt_center {
+    float: none;
+    margin: 0 auto;
+}

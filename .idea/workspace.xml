@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e72ab5c0-943a-4540-825a-2d6eb4d17fa2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/js/bootstrap-datepicker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/full_widget.html" afterPath="$PROJECT_DIR$/full_widget.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-asDatepicker.js" afterPath="$PROJECT_DIR$/js/jquery-asDatepicker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitoring.html" afterPath="$PROJECT_DIR$/monitoring.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -39,19 +37,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="full_widget.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="full_widget.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/full_widget.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45652175">
-              <caret line="406" column="5" selection-start-line="406" selection-start-column="5" selection-end-line="406" selection-end-column="5" />
+            <state vertical-scroll-proportion="-4.581818">
+              <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#18560#22158#0" expanded="false" />
-                <element signature="e#26671#26840#0" expanded="false" />
-                <element signature="e#26872#27171#0" expanded="false" />
-                <element signature="e#26935#27098#0" expanded="false" />
-                <element signature="e#27238#27443#0" expanded="false" />
-                <element signature="e#27475#27515#0" expanded="false" />
+                <element signature="e#26666#26835#0" expanded="false" />
+                <element signature="e#26867#27166#0" expanded="false" />
+                <element signature="e#26930#27093#0" expanded="false" />
+                <element signature="e#27233#27438#0" expanded="false" />
+                <element signature="e#27470#27510#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -60,8 +58,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.551724">
-              <caret line="1601" column="22" selection-start-line="1601" selection-start-column="22" selection-end-line="1601" selection-end-column="22" />
+            <state vertical-scroll-proportion="-14.655172">
+              <caret line="1941" column="1" selection-start-line="1941" selection-start-column="1" selection-end-line="1941" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,8 +68,8 @@
       <file leaf-file-name="monitoring.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monitoring.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9682539">
-              <caret line="1193" column="0" selection-start-line="1193" selection-start-column="0" selection-end-line="1200" selection-end-column="9" />
+            <state vertical-scroll-proportion="8.563637">
+              <caret line="1195" column="3" selection-start-line="1195" selection-start-column="3" selection-end-line="1195" selection-end-column="3" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,14 +78,14 @@
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#57832#58001#0" expanded="false" />
-                <element signature="e#58033#58332#0" expanded="false" />
-                <element signature="e#58096#58259#0" expanded="false" />
-                <element signature="e#58399#58604#0" expanded="false" />
-                <element signature="e#58636#58676#0" expanded="false" />
-                <element signature="e#59755#60769#0" expanded="false" />
-                <element signature="e#60792#61806#0" expanded="false" />
-                <element signature="e#61829#62845#0" expanded="false" />
+                <element signature="e#57840#58009#0" expanded="false" />
+                <element signature="e#58041#58340#0" expanded="false" />
+                <element signature="e#58104#58267#0" expanded="false" />
+                <element signature="e#58407#58612#0" expanded="false" />
+                <element signature="e#58644#58684#0" expanded="false" />
+                <element signature="e#59763#60777#0" expanded="false" />
+                <element signature="e#60800#61814#0" expanded="false" />
+                <element signature="e#61837#62853#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -106,7 +104,7 @@
       <file leaf-file-name="appointments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appointments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.846154">
+            <state vertical-scroll-proportion="-27.576923">
               <caret line="170" column="7" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
               <folding>
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -115,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-asDatepicker.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jquery-asDatepicker.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jquery-asDatepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.62069">
-              <caret line="980" column="57" selection-start-line="980" selection-start-column="57" selection-end-line="980" selection-end-column="57" />
+            <state vertical-scroll-proportion="-51.35294">
+              <caret line="89" column="24" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -130,8 +128,8 @@
       <file leaf-file-name="bootstrap-datepicker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/bootstrap-datepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.265625">
-              <caret line="157" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="473" selection-end-column="19" />
+            <state vertical-scroll-proportion="65.953125">
+              <caret line="176" column="10" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -201,9 +199,9 @@
         <option value="$PROJECT_DIR$/js/bootstrap-datetimepicker.js" />
         <option value="$PROJECT_DIR$/js/jquery-asDatepicker.js" />
         <option value="$PROJECT_DIR$/appointments.html" />
+        <option value="$PROJECT_DIR$/full_widget.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/monitoring.html" />
-        <option value="$PROJECT_DIR$/full_widget.html" />
       </list>
     </option>
   </component>
@@ -437,14 +435,14 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#57832#58001#0" expanded="false" />
-            <element signature="e#58033#58332#0" expanded="false" />
-            <element signature="e#58096#58259#0" expanded="false" />
-            <element signature="e#58399#58604#0" expanded="false" />
-            <element signature="e#58636#58676#0" expanded="false" />
-            <element signature="e#59755#60769#0" expanded="false" />
-            <element signature="e#60792#61806#0" expanded="false" />
-            <element signature="e#61829#62845#0" expanded="false" />
+            <element signature="e#57840#58009#0" expanded="false" />
+            <element signature="e#58041#58340#0" expanded="false" />
+            <element signature="e#58104#58267#0" expanded="false" />
+            <element signature="e#58407#58612#0" expanded="false" />
+            <element signature="e#58644#58684#0" expanded="false" />
+            <element signature="e#59763#60777#0" expanded="false" />
+            <element signature="e#60800#61814#0" expanded="false" />
+            <element signature="e#61837#62853#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -767,31 +765,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap-datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.265625">
-          <caret line="157" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="473" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phone.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.4615383">
           <caret line="40" column="85" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-asDatepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.62069">
-          <caret line="980" column="57" selection-start-line="980" selection-start-column="57" selection-end-line="980" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,9 +781,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/full_widget.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.581818">
+          <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#18560#22158#0" expanded="false" />
+            <element signature="e#26666#26835#0" expanded="false" />
+            <element signature="e#26867#27166#0" expanded="false" />
+            <element signature="e#26930#27093#0" expanded="false" />
+            <element signature="e#27233#27438#0" expanded="false" />
+            <element signature="e#27470#27510#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appointments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.846154">
+        <state vertical-scroll-proportion="-27.576923">
           <caret line="170" column="7" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -813,18 +807,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="65.953125">
+          <caret line="176" column="10" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.551724">
-          <caret line="1601" column="22" selection-start-line="1601" selection-start-column="22" selection-end-line="1601" selection-end-column="22" />
+        <state vertical-scroll-proportion="-14.655172">
+          <caret line="1941" column="1" selection-start-line="1941" selection-start-column="1" selection-end-line="1941" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/monitoring.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9682539">
-          <caret line="1193" column="0" selection-start-line="1193" selection-start-column="0" selection-end-line="1200" selection-end-column="9" />
+        <state vertical-scroll-proportion="8.563637">
+          <caret line="1195" column="3" selection-start-line="1195" selection-start-column="3" selection-end-line="1195" selection-end-column="3" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -833,30 +837,24 @@
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#57832#58001#0" expanded="false" />
-            <element signature="e#58033#58332#0" expanded="false" />
-            <element signature="e#58096#58259#0" expanded="false" />
-            <element signature="e#58399#58604#0" expanded="false" />
-            <element signature="e#58636#58676#0" expanded="false" />
-            <element signature="e#59755#60769#0" expanded="false" />
-            <element signature="e#60792#61806#0" expanded="false" />
-            <element signature="e#61829#62845#0" expanded="false" />
+            <element signature="e#57840#58009#0" expanded="false" />
+            <element signature="e#58041#58340#0" expanded="false" />
+            <element signature="e#58104#58267#0" expanded="false" />
+            <element signature="e#58407#58612#0" expanded="false" />
+            <element signature="e#58644#58684#0" expanded="false" />
+            <element signature="e#59763#60777#0" expanded="false" />
+            <element signature="e#60800#61814#0" expanded="false" />
+            <element signature="e#61837#62853#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/full_widget.html">
+    <entry file="file://$PROJECT_DIR$/js/jquery-asDatepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45652175">
-          <caret line="406" column="5" selection-start-line="406" selection-start-column="5" selection-end-line="406" selection-end-column="5" />
+        <state vertical-scroll-proportion="-51.35294">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#18560#22158#0" expanded="false" />
-            <element signature="e#26671#26840#0" expanded="false" />
-            <element signature="e#26872#27171#0" expanded="false" />
-            <element signature="e#26935#27098#0" expanded="false" />
-            <element signature="e#27238#27443#0" expanded="false" />
-            <element signature="e#27475#27515#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
