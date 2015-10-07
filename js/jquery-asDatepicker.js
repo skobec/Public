@@ -561,7 +561,7 @@
 
         _init: function() {
             //init the status
-            this.format = this._parseFormat('yyyy-mm-dd');
+            this.format = this._parseFormat('yyyy.mm.dd');
             this.outputFormat = this._parseFormat(this.options.format || 'dd/mm/yy');
             this.mode = this.options.mode;
             this.namespace = this.options.namespace;

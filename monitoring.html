@@ -69,9 +69,9 @@
                                             </div>
                                             <div class="col-xs-8">
                                                    <div class="calendar_data">
-                                                       <input id="dpd1" value="12-08-15">
+                                                       <input id="dpd1" value="12.08.15">
                                                        <span class="to_do"></span>
-                                                       <input id="dpd2" value="28-07-13">
+                                                       <input id="dpd2" value="28.07.13">
                                                    </div>
                                             </div>
                                         </div>
@@ -158,9 +158,9 @@
                                             </div>
                                             <div class="col-xs-8">
                                                 <div class="calendar_data">
-                                                    <input id="dpd3" value="12-08-15">
+                                                    <input id="dpd3" value="12.08.15">
                                                     <span class="to_do"></span>
-                                                    <input id="dpd4" value="28-07-13">
+                                                    <input id="dpd4" value="28.07.13">
                                                 </div>
                                             </div>
                                         </div>
@@ -258,9 +258,9 @@
                                             </div>
                                             <div class="col-xs-8">
                                                 <div class="calendar_data">
-                                                    <input id="dpd5" value="12-08-15">
+                                                    <input id="dpd5" value="12.08.15">
                                                     <span class="to_do"></span>
-                                                    <input id="dpd6" value="28-07-13">
+                                                    <input id="dpd6" value="28.07.13">
                                                 </div>
                                             </div>
                                         </div>
@@ -335,9 +335,9 @@
                                             </div>
                                             <div class="col-xs-8">
                                                 <div class="calendar_data">
-                                                    <input id="dpd7" value="12-08-15">
+                                                    <input id="dpd7" value="12.08.15">
                                                     <span class="to_do"></span>
-                                                    <input id="dpd8" value="28-07-13">
+                                                    <input id="dpd8" value="28.07.13">
                                                 </div>
                                             </div>
                                         </div>
@@ -458,9 +458,9 @@
                                             </div>
                                             <div class="col-xs-8">
                                                 <div class="calendar_data">
-                                                    <input id="dpd9" value="12-08-15">
+                                                    <input id="dpd9" value="12.08.15">
                                                     <span class="to_do"></span>
-                                                    <input id="dpd10" value="28-07-13">
+                                                    <input id="dpd10" value="28.07.13">
                                                 </div>
                                             </div>
                                         </div>
@@ -1256,7 +1256,7 @@
         var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
 
         var checkin = $('#dpd1').datepicker({
-            format: 'dd-mm-yy',
+            format: 'dd.mm.yy',
             onRender: function(date) {
                 return date.valueOf() < now.valueOf() ? 'disabled' : '';
             }
@@ -1270,7 +1270,7 @@
             $('#dpd2')[0].focus();
         }).data('datepicker');
         var checkout = $('#dpd2').datepicker({
-            format: 'dd-mm-yy',
+            format: 'dd.mm.yy',
             weekStart: 1,
             onRender: function(date) {
                 return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
@@ -1280,7 +1280,7 @@
         }).data('datepicker');
         $(function(){
             var checkin = $('#dpd3').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 onRender: function(date) {
                     return date.valueOf() < now.valueOf() ? 'disabled' : '';
                 }
@@ -1294,7 +1294,7 @@
                 $('#dpd4')[0].focus();
             }).data('datepicker');
             var checkout = $('#dpd4').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 weekStart: 1,
                 onRender: function(date) {
                     return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
@@ -1306,7 +1306,7 @@
         });
         $(function(){
             var checkin = $('#dpd5').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 onRender: function(date) {
                     return date.valueOf() < now.valueOf() ? 'disabled' : '';
                 }
@@ -1320,7 +1320,7 @@
                 $('#dpd6')[0].focus();
             }).data('datepicker');
             var checkout = $('#dpd6').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 weekStart: 1,
                 onRender: function(date) {
                     return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
@@ -1332,7 +1332,7 @@
         });
         $(function(){
             var checkin = $('#dpd7').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 onRender: function(date) {
                     return date.valueOf() < now.valueOf() ? 'disabled' : '';
                 }
@@ -1346,7 +1346,7 @@
                 $('#dpd8')[0].focus();
             }).data('datepicker');
             var checkout = $('#dpd8').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 weekStart: 1,
                 onRender: function(date) {
                     return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
@@ -1358,7 +1358,7 @@
         });
         $(function(){
             var checkin = $('#dpd9').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 onRender: function(date) {
                     return date.valueOf() < now.valueOf() ? 'disabled' : '';
                 }
@@ -1372,7 +1372,7 @@
                 $('#dpd10')[0].focus();
             }).data('datepicker');
             var checkout = $('#dpd10').datepicker({
-                format: 'dd-mm-yy',
+                format: 'dd.mm.yy',
                 weekStart: 1,
                 onRender: function(date) {
                     return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
